@@ -1,9 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 /* Oswald, Roboto+condensed, Opern sans */
+
+.avatar {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
 body {
   font-family: "Oswald";
   font-size: 16px;
   font-weight: normal;
+}
+
+.info {
+  text-align: left;
+  padding-left: 15px;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: normal;
+  border: 3px solid rgba(188, 207, 214, 0.712);
+  border-radius: 10px;
+  background-color: rgba(188, 207, 214, 0.712);
+  margin-bottom: 10px;
 }
 
 .hobby {
@@ -40,15 +58,20 @@ body {
   background-color: rgba(248, 194, 124);
 }
 
-.avatar {
-  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+.contact {
+  text-align: left;
+  font-family: "Oswald";
+  padding-left: 15px;
+  margin-bottom: 10px;
+  border: 3px solid rgb(190, 255, 182);
   border-radius: 10px;
+  background-color: rgb(190, 255, 182);
 }
-
 .container {
   max-width: 750px;
   margin: auto;
 }
+
 h4 {
   margin-bottom: 5px;
 }
