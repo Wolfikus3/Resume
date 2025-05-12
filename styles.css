@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+/* Oswald, Roboto+condensed, Opern sans */
+body {
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.hobby {
+  text-align: left;
+  padding-left: 15px;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: normal;
+  border: 3px solid LightBlue;
+  border-radius: 10px;
+  background-color: LightBlue;
+  margin-bottom: 10px;
+}
+
+.social {
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  font-family: "oswald";
+  font-size: 19px;
+  border: 3px solid rgb(226, 255, 96);
+  border-radius: 10px;
+  background-color: rgb(226, 255, 96);
+  padding-bottom: 10px;
+}
+
+.experience {
+  text-align: left;
+  font-family: "Oswald";
+  padding-left: 15px;
+  margin-bottom: 10px;
+  border: 3px solid rgba(248, 194, 124);
+  border-radius: 10px;
+  background-color: rgba(248, 194, 124);
+}
+
+.avatar {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+h4 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}

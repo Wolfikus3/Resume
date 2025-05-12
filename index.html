@@ -6,58 +6,67 @@
     <meta name="keyword" content="Alexandr, Resume" />
     <meta name="description" content="Это будет Резюмешка" />
     <title>Resume Alexandr</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <img src="img/Avatars.JPG" alt="Avatars.jpg" width="150" />
-    <h1>Александр Достов</h1>
-    <p>
-      Работаю <strong>Системным Администратором</strong> в компании
-      <strong>ТОО"Металлосклад-Т"</strong>
-    </p>
-    <p>
-      В свободное время играем с <strong>сыном</strong> в
-      <strong>видео игры</strong> и
-      <strong>стараюсь изучить что-то новое для себя.</strong>
-    </p>
-    <h2><strong>Мои хобби</strong></h2>
-    <ol>
-      <li>Радиотехника</li>
-      <li>Аквариумистика</li>
-      <li>Видео игры</li>
-      <li>Автомобили</li>
-    </ol>
+  <body class="container">
+    <img class="avatar" src="img/Avatars.JPG" alt="Avatars.jpg" width="150" />
+    <!-- почему не меняется шрифт во всем параграфе -->
+    <div class="info">
+      <h1>Александр Достов</h1>
+      <p>
+        Работаю <strong>Системным Администратором</strong> в компании
+        <strong>ТОО"Металлосклад-Т"</strong>
+      </p>
+      <p>
+        В свободное время играем с <strong>сыном</strong> в
+        <strong>видео игры</strong> и
+        <strong>стараюсь изучить что-то новое для себя.</strong>
+      </p>
+    </div>
+    <div class="hobby">
+      <h2><strong>Мои хобби</strong></h2>
+      <ol>
+        <li>Радиотехника</li>
+        <li>Аквариумистика</li>
+        <li>Видео игры</li>
+        <li>Автомобили</li>
+      </ol>
+    </div>
 
-    <h4><strong>Список социальных сетей:</strong></h4>
-    <a href="https://www.tiktok.com/@dostovs" target="_blank">TikTok</a>
-    <strong>|</strong>
-    <a href="https://www.youtube.com/@Wolfikus3" target="_blank">YouTube</a>
-    <strong>|</strong>
-    <a href="https://t.me/Yruru_Olerie" target="_blank">Telegram</a>
+    <div class="social">
+      <h4><strong>Список социальных сетей:</strong></h4>
+      <a href="https://www.tiktok.com/@dostovs" target="_blank">TikTok</a>
+      <strong>|</strong>
+      <a href="https://www.youtube.com/@Wolfikus3" target="_blank">YouTube</a>
+      <strong>|</strong>
+      <a href="https://t.me/Yruru_Olerie" target="_blank">Telegram</a>
+    </div>
+    <div class="experience">
+      <h2>Опыт работы</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>OGMA</td>
+            <td>Сервисный инженер</td>
+            <td>2010-2017</td>
+          </tr>
+          <tr>
+            <td>SMTechnology</td>
+            <td>Мастер по ремонту</td>
+            <td>2007-2010</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-    <h2>Опыт работы</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Название</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>OGMA</td>
-          <td>Сервисный инженер</td>
-          <td>2010-2017</td>
-        </tr>
-        <tr>
-          <td>SMTechnology</td>
-          <td>Мастер по ремонту</td>
-          <td>2007-2010</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Связаться со мной</h2>
+    <h2 class="contact">Связаться со мной</h2>
     <form>
       <div>
         <label for="name">Ваше имя</label>
