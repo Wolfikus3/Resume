@@ -94,9 +94,11 @@ body {
   background-color: rgb(235, 235, 235);
 }
 .container {
-  max-width: 750px;
-  margin: auto;
+  max-width: 800px;
+  margin: 0 auto;
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 h4 {
