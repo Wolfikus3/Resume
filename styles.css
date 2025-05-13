@@ -11,7 +11,7 @@
 
 .info2 {
   margin-left: 20px;
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .info {
@@ -132,13 +132,13 @@ a:active {
 }
 
 a:hover {
-  color: rgb(204, 0, 255);
+  color: rgb(50, 255, 50);
   font-size: 1.5rem;
   text-decoration: underline;
 }
 
 a:visited {
-  color: rgb(110, 0, 101);
+  color: rgb(255, 103, 247);
 }
 
 .list {
@@ -146,19 +146,22 @@ a:visited {
 }
 
 .list li {
-  color: #5086fa;
+  color: #1976d2;
   margin-bottom: 5px;
 }
 
 .table {
   width: 100%;
+  border-collapse: collapse;
 }
 
 .table td {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid#ddd;
 }
 
 .table td:nth-child(2),
+.table td:nth-child(1),
 .table td:nth-child(3) {
   color: #56565a;
 }
