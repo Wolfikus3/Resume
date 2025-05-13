@@ -25,6 +25,7 @@ body {
   border-radius: 10px;
   background-color: rgba(188, 207, 214, 0.712);
   margin-bottom: 10px;
+  line-height: normal;
 }
 
 .hobby {
