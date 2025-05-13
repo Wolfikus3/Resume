@@ -21,7 +21,7 @@ body {
   font-family: "Oswald";
   font-size: 16px;
   font-weight: normal;
-  border: 3px solid rgba(188, 207, 214, 0.712);
+  border: 1px solid rgba(188, 207, 214, 0.712);
   border-radius: 10px;
   background-color: rgba(188, 207, 214, 0.712);
   margin-bottom: 10px;
@@ -34,9 +34,9 @@ body {
   font-family: "Oswald";
   font-size: 16px;
   font-weight: normal;
-  border: 3px solid LightBlue;
+  border: 1px solid rgba(188, 207, 214, 0.712);
   border-radius: 10px;
-  background-color: LightBlue;
+  background-color: rgba(188, 207, 214, 0.712);
   margin-bottom: 10px;
 }
 
@@ -57,9 +57,9 @@ body {
   font-family: "Oswald";
   padding-left: 15px;
   margin-bottom: 10px;
-  border: 3px solid rgba(248, 194, 124);
+  border: 1px solid rgba(188, 207, 214, 0.712);
   border-radius: 10px;
-  background-color: rgba(248, 194, 124);
+  background-color: rgba(188, 207, 214, 0.712);
 }
 
 .contact {
@@ -67,9 +67,9 @@ body {
   font-family: "Oswald";
   padding-left: 15px;
   margin-bottom: 10px;
-  border: 3px solid rgb(190, 255, 182);
+  border: 3px solid rgb(148, 206, 141);
   border-radius: 10px;
-  background-color: rgb(190, 255, 182);
+  background-color: rgb(148, 206, 141);
 }
 .container {
   max-width: 750px;
@@ -117,4 +117,26 @@ a:hover {
 
 a:visited {
   color: rgb(110, 0, 101);
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #011aa7;
+  margin-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #011aa7;
 }
