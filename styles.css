@@ -96,9 +96,10 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 h4 {
