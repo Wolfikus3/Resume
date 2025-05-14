@@ -231,10 +231,11 @@ a:visited {
 }
 
 .form-group textarea {
-  display: block;
-  border-width: 1px;
+    border-width: 1px;
   border-radius: 5px;
   border-color: #56565a6e;
+  box-sizing: border-box;
+  resize: vertical;
 }
  .message {
   width: 100%;
@@ -265,10 +266,11 @@ a:visited {
     height: auto;
   }
 
-  .social-link {
+  .social {
     flex-direction: column;
     gap: 5px;
     align-items: center;
+    display: inline-block;
   }
 
   .form-row {
@@ -298,4 +300,5 @@ a:visited {
     width: 100%;
     padding: 10px 0;
   }
+ 
 }
