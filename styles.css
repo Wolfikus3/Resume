@@ -232,7 +232,6 @@ a:visited {
 
 .form-group textarea {
   display: block;
-
   border-width: 1px;
   border-radius: 5px;
   border-color: #56565a6e;
@@ -240,6 +239,7 @@ a:visited {
  .message {
   width: 100%;
   max-width: 100%;
+
 } 
 
 @media (max-width: 600px) {
