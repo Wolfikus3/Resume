@@ -1,17 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 /* Oswald, Roboto+condensed, Opern sans */
 /* Адаптация под телефоны - @media */
-@media (max-width: 650px) {
-  .container {
-    text-align: center;
-    padding: 10px;
-    font-size: 1rem;
-  }
-}
 
 .link-mskald {
   position: relative;
   display: inline-block;
+  text-align: center;
 }
 
 .link-mskald:hover img {
@@ -242,4 +236,62 @@ a:visited {
   border-width: 1px;
   border-radius: 5px;
   border-color: #56565a6e;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px 10px;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info2 {
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+  }
+
+  .social-link {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .table td {
+    font-size: 14px;
+    word-break: break-word;
+  }
+
+  .experience,
+  .contact,
+  .hobby {
+    padding: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px 0;
+  }
 }
