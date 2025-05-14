@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 /* Oswald, Roboto+condensed, Opern sans */
 /* Адаптация под телефоны - @media */
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   .container {
     padding: 10px;
   }
@@ -235,6 +235,8 @@ a:visited {
 }
 
 .form-group textarea {
+  display: block;
+
   border-width: 1px;
   border-radius: 5px;
   border-color: #56565a6e;
