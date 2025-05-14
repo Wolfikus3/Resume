@@ -7,23 +7,37 @@
   }
 }
 
+.link-mskald {
+  position: relative;
+  display: inline-block;
+}
+
+.link-mskald:hover img {
+  display: block;
+}
+
+.link-mskald img {
+  display: none;
+  position: absolute;
+  top: -50px; /* положение картинки относительно ссылки */
+  left: 20px;
+  width: 100px; /* размер картинки */
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
 .avatar {
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  width: 200px;
-}
-
-.info2 {
-  margin-left: 20px;
-  max-width: 100%;
+  width: 220px;
+  display: block;
+  gap: 20px;
 }
 
 .info {
   display: flex;
   text-align: left;
-  padding-left: 15px;
+  padding: 10px 10px 10px;
   font-family: "Oswald";
   font-size: 16px;
   font-weight: normal;
@@ -34,6 +48,28 @@
   line-height: normal;
   gap: 2px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info2 {
+  margin-left: 10px;
+  max-width: 100%;
+}
+
+.text {
+  color: #56565a;
+  font-size: 15.5px;
+  line-height: 25px;
+}
+
+.link-mskald {
+  color: #56565a;
+}
+.link-mskald :active {
+  color: red;
+}
+
+.link-mskald:hover {
+  color: #1976d2;
 }
 
 body {
@@ -57,12 +93,8 @@ body {
 
 .social {
   text-align: left;
-  padding-top: 20px;
-  margin-bottom: 10px;
   font-family: "oswald";
   font-size: 19px;
-  border-radius: 10px;
-  padding-bottom: 10px;
 }
 
 .social a {
@@ -72,7 +104,7 @@ body {
   border-radius: 10px;
   text-decoration: none;
   transition: 0.3s;
-  box-shadow: 4px 4px 4px #1976d2;
+  box-shadow: 4px 4px 4px #000000a1;
 }
 
 .social-link {
@@ -95,10 +127,16 @@ body {
   font-family: "Oswald";
   padding-left: 15px;
   margin-bottom: 10px;
-  border: 3px solid rgb(235, 235, 235);
+  border: 3px solid white;
   border-radius: 10px;
-  background-color: rgb(235, 235, 235);
+  background-color: white;
+  color: #56565a;
 }
+
+.contact h2 {
+  color: #000;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -117,17 +155,17 @@ h2 {
 }
 
 .btn {
-  background: #000000;
+  background: #1976d2;
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 7px;
-  padding: 5px 8px;
+  padding: 5px 5px 5px;
   font-family: inherit;
   cursor: pointer;
 }
 
 .btn:hover {
-  color: rgb(73, 249, 255);
+  color: rgb(70, 255, 70);
   opacity: 0.8;
 }
 
@@ -146,7 +184,7 @@ a:hover {
 }
 
 a:visited {
-  color: rgb(255, 103, 247);
+  color: rgb(117, 49, 114);
 }
 
 .list {
@@ -175,13 +213,29 @@ a:visited {
 }
 
 .form h2 {
-  text-align: center;
+  text-align: left;
 }
 
 .form-group label {
-  display: block;
+  display: flex;
 }
 
-.form {
-  text-align: center;
+.form-row {
+  display: flex;
+  gap: 200px;
+  padding-bottom: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 35%;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #56565a6e;
+}
+
+.form-group textarea {
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #56565a6e;
 }
