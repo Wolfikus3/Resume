@@ -75,16 +75,27 @@ body {
   background: #c0c0c0;
 }
 
-.hobby {
+.hobby,
+.hard {
   text-align: left;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   font-family: "Oswald";
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-weight: normal;
+}
+
+.hobby-skills {
+  display: flex;
+  padding-left: 16px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: left;
+  font-family: "Oswald";
+  font-size: 14px;
   font-weight: normal;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  margin-bottom: 10px;
 }
 
 .social {
@@ -231,16 +242,13 @@ a:visited {
 }
 
 .form-group textarea {
-    border-width: 1px;
+  border-width: 1px;
   border-radius: 5px;
   border-color: #56565a6e;
   box-sizing: border-box;
   resize: vertical;
 }
- .message {
+.message {
   width: 100%;
   max-width: 100%;
-
-} 
-
-
+}

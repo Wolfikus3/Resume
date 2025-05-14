@@ -7,8 +7,7 @@
     <meta name="description" content="Резюме" />
     <title>Resume Alexandr</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="media.css">
-  
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <div class="container">
@@ -47,16 +46,41 @@
           </div>
         </div>
       </div>
-      <div class="hobby">
-        <h2><strong>Мои хобби</strong></h2>
-        <ul class="list">
-          <li>Радиотехника</li>
-          <li>Аквариумистика</li>
-          <li>Видео игры</li>
-          <li>Автомобили</li>
-        </ul>
-      </div>
 
+      <div class="hobby-skills">
+        <div class="hobby">
+          <h2><strong>Мои хобби</strong></h2>
+          <ul class="list">
+            <li>Радиотехника</li>
+            <li>Аквариумистика</li>
+            <li>Видео игры</li>
+            <li>Автомобили</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h2><strong>Личные качества</strong></h2>
+          <ul class="list">
+            <li>Коммуникабельность</li>
+            <li>Тайм-менеджмент</li>
+            <li>Умение работать в команде</li>
+            <li>Способность к быстрому обучению</li>
+          </ul>
+        </div>
+        <div class="hobby">
+          <h2><strong>Hard Skills</strong></h2>
+          <ul class="list">
+            <li>
+              Уверенный пользователь операционных систем Windows (установка,
+              настройка, диагностика)
+            </li>
+            <li>
+              Базовые знания Windows Server 2016 (настройка пользователей,
+              службы, безопасность)
+            </li>
+            <li>HTML, CSS — базовый уровень</li>
+          </ul>
+        </div>
+      </div>
       <div class="experience">
         <h2>Опыт работы</h2>
         <table class="table">
@@ -93,24 +117,33 @@
         <form action="send.php" method="post">
           <h2>Связаться со мной</h2>
 
-
-
           <div class="form-row">
             <div class="form-group">
               <label for="name">Ваше имя:</label>
-              <input type="text" name="name" id="name" placeholder="Введите имя" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Введите имя"
+              />
             </div>
 
             <div class="form-group">
               <label for="email">Ваш email:</label>
-              <input type="text" name="email" id="email" placeholder="Введите email" />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Введите email"
+              />
             </div>
           </div>
 
           <div class="form-group">
             <label for="message" name="message">Введите сообщение:</label>
 
-            <textarea class="message"
+            <textarea
+              class="message"
               id="message"
               placeholder="Введите сообщение..."
             ></textarea>
@@ -119,8 +152,6 @@
           <!-- <button type="submit"> <h3>Отправить!</h3></button> -->
           <input class="btn" type="submit" value="Отправить" />
         </form>
-
-
       </div>
     </div>
   </body>
