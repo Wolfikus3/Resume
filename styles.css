@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 /* Oswald, Roboto+condensed, Opern sans */
+/* Адаптация под телефоны - @media */
 @media (max-width: 768px) {
   .container {
     padding: 10px;
@@ -82,7 +83,7 @@ body {
 .experience {
   text-align: left;
   font-family: "Oswald";
-  padding-left: 15px;
+  padding: 0 0 20px 15px;
   margin-bottom: 10px;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
@@ -141,7 +142,6 @@ a:active {
 
 a:hover {
   color: rgb(50, 255, 50);
-  font-size: 1.5rem;
   text-decoration: underline;
 }
 
